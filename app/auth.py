@@ -287,7 +287,7 @@ def login():
 
             flash(error)
 
-        return render_template('auth/login.htm')
+        return render_template('auth/login.html')
     except:
         return render_template('auth/login.html')
         
